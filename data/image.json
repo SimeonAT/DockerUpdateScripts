@@ -1,0 +1,4 @@
+{
+  "vaultwarden/server": "latest",
+  "gitea/gitea": "nightly"
+}

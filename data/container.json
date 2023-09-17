@@ -1,0 +1,21 @@
+{
+  "vaultwarden/server": {
+    "tag": "latest",
+    "ports": {
+      "80/tcp": "[insert port as a number (not as a string)]"
+    },
+    "volumes": {
+      "[path on your machine to store container data]": {"bind": "/data", "mode": "rw"}
+    }
+  },
+  "gitea/gitea": {
+    "tag": "nightly",
+    "ports": {
+      "22/tcp": "[insert port as a number (not as a string)]",
+      "3000/tcp": "[insert port as a number (not as a string)]"
+    },
+    "volumes": {
+      "[path on your machine to store container data]": {"bind": "/data/gitea", "mode": "rw"}
+    }
+  }
+}
