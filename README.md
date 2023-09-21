@@ -1,6 +1,6 @@
 # Scripts for Updating Docker Containers
 
-This repository contains Pythons scripts that I have written in order to *automate* the process of updating the Docker containers that run in my self-hosted server. Detailed information about these Python scripts can be found in my [blog post](https://simeonat.github.io/year-archive/).
+This repository contains Pythons scripts that I have written in order to *automate* the process of updating the Docker containers that run in my self-hosted server. Detailed information about these Python scripts can be found in my [blog post](https://simeonat.github.io/posts/2023/06/python-docker-containers/).
 
 
 # Instructions
